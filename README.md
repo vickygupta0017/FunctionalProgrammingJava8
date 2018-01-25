@@ -25,7 +25,7 @@ So we will have the second attempt to resolve this issue.
 Attempt two: In this solution we are having a flag, if it is true then we will filter our collection based on color else based
 on weight.
 
-public List<Ball> filterBalls(List<Ball> inventory, String color,
+        public List<Ball> filterBalls(List<Ball> inventory, String color,
 			int weight, boolean flag){
 		List<Ball> filteredInventory = new ArrayList<>();
 		for(Ball ball:inventory) {
@@ -34,7 +34,7 @@ public List<Ball> filterBalls(List<Ball> inventory, String color,
 			}
 		}
 		return filteredInventory;
-}
+       }
 Now this code becoms lenthy and unreadable as we do not know,for what the flag used for? or what if we need to filter our
 collection based on some new property in future then how can we maintain this code?
 
