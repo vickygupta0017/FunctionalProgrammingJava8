@@ -54,7 +54,7 @@ But using and maintaining annonyms classes code is a overhead and error prone(ge
 annonyms classes in your code). Now we comes to a situation where we want to pass the behavious to our funtion with out making
 any blue print for that behaviour, is there any way to do that? before java 8, no.
 
-Attempt five: But with the help of lambda expresions and lambda functions we can do that.
+Attempt five: But with the help of lambda expresions we can do that.
 
 ....See code...
 
